@@ -13,6 +13,7 @@ const uploadFIle = (fileName) => {
     Bucket: process.env.bucketName,
     Key: "hoge.jpg",
     Body: fileContent,
+    ACL: "public-read",
   };
 
   s3.upload(params, function (err, data) {
