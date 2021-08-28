@@ -1,0 +1,8 @@
+{
+  "name": "s3-node-upload",
+  "devDependencies": {
+    "@types/node": "^16.7.4",
+    "aws-sdk": "^2.978.0"
+  },
+  "dependencies": {}
+}
